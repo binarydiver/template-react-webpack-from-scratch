@@ -11,7 +11,6 @@ specifiers:
   '@types/react-dev-utils': ^9.0.11
   '@types/react-dom': ^18.0.9
   '@types/webpack': ^5.28.0
-  '@types/webpack-dev-server': ^4.7.2
   babel-loader: ^9.1.0
   browserslist: ^4.21.4
   copy-webpack-plugin: ^11.0.0
@@ -56,7 +55,6 @@ devDependencies:
   '@types/react-dev-utils': 9.0.11
   '@types/react-dom': 18.0.9
   '@types/webpack': 5.28.0_webpack-cli@4.10.0
-  '@types/webpack-dev-server': 4.7.2_pda42hcaj7d62cr262fr632kue
   babel-loader: 9.1.0_npabyccmuonwo2rku4k53xo3hi
   browserslist: 4.21.4
   copy-webpack-plugin: 11.0.0_webpack@5.75.0
@@ -2058,20 +2056,6 @@ packages:
       http-proxy-middleware: 1.3.1
     transitivePeerDependencies:
       - debug
-    dev: true
-
-  /@types/webpack-dev-server/4.7.2_pda42hcaj7d62cr262fr632kue:
-    resolution: {integrity: sha512-Y3p0Fmfvp0MHBDoCzo+xFJaWTw0/z37mWIo6P15j+OtmUDLvznJWdZNeD7Q004R+MpQlys12oXbXsrXRmxwg4Q==}
-    deprecated: This is a stub types definition. webpack-dev-server provides its own type definitions, so you do not need this installed.
-    dependencies:
-      webpack-dev-server: 4.11.1_pda42hcaj7d62cr262fr632kue
-    transitivePeerDependencies:
-      - bufferutil
-      - debug
-      - supports-color
-      - utf-8-validate
-      - webpack
-      - webpack-cli
     dev: true
 
   /@types/webpack-sources/3.2.0:
